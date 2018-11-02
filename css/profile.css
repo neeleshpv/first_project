@@ -1,0 +1,101 @@
+html{
+	height: 100%;  /*if this selector is omitted then the structure will be styled
+	depending on the height achieved thorugh the content inserted by HTML or the user.*/
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Franklin Gothic';
+	background-color: rgba(120,150,150,0.2);
+	height: 100%;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}
+.first{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.second1c{
+	margin: 10px;
+	width: 55%;
+	height: 40%;
+	border: 1px solid rgba(0,0,0,0.02);
+}
+.second1c1{
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 90%;
+	width: 95%;
+	margin: 10px auto;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1); 
+}
+.second1{
+	margin: 2.5% auto;
+	background-color: rgba(250,250,250,0.7);
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+	width: 65%;
+	height: 90%;
+}
+.second1a{
+	margin: 5px auto;
+	display: flex;
+	justify-content: center;
+	align-items: bottom;
+	width: 90%;
+	height: 50px;
+	position: relative;
+}
+.second1a1{
+	height: 50%;
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	overflow: auto;
+	margin-top: 10px;
+}
+.second1a2{
+	height: 50%;
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	overflow: auto;
+	margin-top: 10px;
+}
+.second1a3{
+	height: 50%;
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	right: 2px;
+	overflow: auto;
+	margin-top: 10px;
+}
+.second1b{
+	margin-top: 45px;
+	margin-bottom: 45px;
+	margin-left: 15px;
+	margin-right: 0px;
+	width: 70%;
+	height: 35%;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+	background-color: rgba(120,150,150,0.02);
+}
+.second2{
+	margin: 2.5% auto;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+	width: 28%;
+	height: 90%;
+	background-color: rgba(120,150,150,0.02);
+}
+.second2a{
+	border: 1px solid rgba(0,0,0,0.1);
+	height: 15%;
+	background-color: rgba(250,250,250,0.7);
+	padding: 3px;
+	width: 90%;
+	margin: 25px auto;
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}

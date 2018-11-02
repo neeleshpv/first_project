@@ -1,0 +1,41 @@
+html{
+	height: 100%;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	height: 100%;
+	position: relative;
+	background-color: rgba(120,150,150,0.2);
+	font-family: 'Franklin Gothic';
+	box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+	position: relative;
+}
+.class1{
+	border: 1px solid rgba(0,0,0,1);
+	background-color: rgba(120,150,150,0.2);
+	width: 30%;
+	height: 5%;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+.class2{
+	border: 1px solid rgba(0,0,0,1);
+	background-color: rgba(120,150,150,0.2);
+	width: 80%;
+	height: 5%;
+	position: absolute;
+	left: 40px;
+	top: 400px;
+}
+.class3{
+	border: 1px solid rgba(0,0,0,1);
+	background-color: rgba(120,150,150,0.2);
+
+}
+.class4{
+	border: 1px solid rgba(0,0,0,1);
+	background-color: rgba(120,150,150,0.2);
+}
